@@ -17,10 +17,15 @@ The SolidOpinion commenting platform replaces your WordPress comment system with
 SolidOpinion is a dynamic new commenting platform that can turn an ordinary discussion into a self-moderating community that promotes your content and generates revenue for your site.
 The SolidOpinion for WordPress plugin is easy to integrate even if you're not a tech-head. And it has a smart design that adapts to your look and feel.
 
-**SolidOpinion for WordPress:**
-*Uses the SolidOpinion API
-*Comments indexable by search engines (SEO-friendly)
-*Support for importing existing comments
+
+**SolidOpinion for WordPress**
+
+* Uses the SolidOpinion API
+
+* Comments indexable by search engines (SEO-friendly)
+
+* Support for importing existing comments
+
 
 **SolidOpinion Features:**
 *Intuitive and logical organization of comments and replies
