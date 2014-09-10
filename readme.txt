@@ -21,7 +21,6 @@ SolidOpinion for WordPress<br>
 *	Uses the SolidOpinion API<br>
 *	Comments indexable by search engines (SEO-friendly)<br>
 *	Support for importing existing comments<br>
-*	Auto-sync (backup) of comments with SolidOpinion and WordPress database<br>
 
 SolidOpinion Features<br>
 *	Intuitive and logical organization of comments and replies<br>
