@@ -28,16 +28,27 @@ The SolidOpinion for WordPress plugin is easy to integrate even if you're not a 
 
 
 **SolidOpinion Features:**
-*Intuitive and logical organization of comments and replies
-*Notifications by email
-*Built-in moderation and admin tools
-*Robust user-interface
-*Multi-likes and dislikes, user ranks and more
-*Social-sharing incentives that generate traffic
-*Powerful analytics and reporting
-*The Social game at the core of SolidOpinion is very flexible - you can create your own system based on our templates
-*Personalized support for SolidOpinion users.
-*Generate new traffic with powerful social sharing incentives
+
+* Intuitive and logical organization of comments and replies
+
+* Notifications by email
+
+* Built-in moderation and admin tools
+
+* Robust user-interface
+
+* Multi-likes and dislikes, user ranks and more
+
+* Social-sharing incentives that generate traffic
+
+* Powerful analytics and reporting
+
+* The Social game at the core of SolidOpinion is very flexible - you can create your own system based on our templates
+
+* Personalized support for SolidOpinion users.
+
+* Generate new traffic with powerful social sharing incentives
+
 
 Tags: avatars, comments, community, email, solid, opinion, notification, profile, spam, threaded, widget
 
@@ -46,9 +57,13 @@ Tags: avatars, comments, community, email, solid, opinion, notification, profile
 
 1. Upload 'Solidopinion-comments' via WordPress  dashboard (Plugins/Add new/Upload/Choose path to solidopinion-comments 'zip' archive/ click 'Install now' button)
 2. Activating plugin  through 'Plugins' menu in WordPress:
+
 * click 'Please configure plugin to enable SolidOpinion Comments on your site' link.
+
 * Create an account on Solidopinion by signing up (with SolidOpinion or with social networks) or Log in if you already have a SolidOpinion account.
+
 * Add new integration by creating new site (specify your site URL, title and shortname).
+
 * Activate SolidOpinion comments on your site.
 
 More documentation
