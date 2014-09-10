@@ -18,21 +18,21 @@ SolidOpinion is a dynamic new commenting platform that can turn an ordinary disc
 The SolidOpinion for WordPress plugin is easy to integrate even if you're not a tech-head. And it has a smart design that adapts to your look and feel.
 
 SolidOpinion for WordPress<br>
-*	Uses the SolidOpinion API<br>
-*	Comments indexable by search engines (SEO-friendly)<br>
-*	Support for importing existing comments<br>
+* Uses the SolidOpinion API<br>
+* Comments indexable by search engines (SEO-friendly)<br>
+* Support for importing existing comments<br>
 
 SolidOpinion Features<br>
-*	Intuitive and logical organization of comments and replies<br>
-*	Notifications by email<br>
-*	Built-in moderation and admin tools<br>
-*	Robust user-interface <br>
-*	Multi-likes and dislikes, user ranks and more<br>
-*	Social-sharing incentives that generate traffic<br>
-*	Powerful analytics and reporting<br>
-*	The Social game at the core of SolidOpinion is very flexible - you can create your own system based on our templates<br>
-*	Personalized support for SolidOpinion users. <br>
-*	Generate new traffic with powerful social sharing incentives<br>
+* Intuitive and logical organization of comments and replies<br>
+* Notifications by email<br>
+* Built-in moderation and admin tools<br>
+* Robust user-interface <br>
+* Multi-likes and dislikes, user ranks and more<br>
+* Social-sharing incentives that generate traffic<br>
+* Powerful analytics and reporting<br>
+* The Social game at the core of SolidOpinion is very flexible - you can create your own system based on our templates<br>
+* Personalized support for SolidOpinion users. <br>
+* Generate new traffic with powerful social sharing incentives<br>
 
 Tags: avatars, comments, community, email, solid, opinion, notification, profile, spam, threaded, widget
 
