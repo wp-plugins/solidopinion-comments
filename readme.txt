@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: Solidopinion
 Donate link: http://solidopinion.com/
-Tags: avatars, comments, community, email, notification, profile, spam, threaded, widget
+Tags: avatars, comments, community, email, solid, opinion, notification, profile, spam, threaded, widget
 Requires at least: 3.5
 Tested up to: 3.9
 Stable tag: trunk
@@ -48,9 +48,6 @@ The SolidOpinion for WordPress plugin is easy to integrate even if you're not a 
 * Personalized support for SolidOpinion users.
 
 * Generate new traffic with powerful social sharing incentives
-
-
-Tags: avatars, comments, community, email, solid, opinion, notification, profile, spam, threaded, widget
 
 
 == Installation ==
