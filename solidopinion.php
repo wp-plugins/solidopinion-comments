@@ -2,7 +2,7 @@
 /*
 Plugin Name: SolidOpinion Comments
 Description: Implement SolidOpinion comments features
-Version: 1.0
+Version: 1.1
 Author: SolidOpinion Team
 Author URI: http://solidopinion.com/
 Plugin URI: http://solidopinion.com/
