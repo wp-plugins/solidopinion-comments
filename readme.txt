@@ -72,7 +72,6 @@ Go to http://help.solidopinion.com/
 
 Yes, to import comments from other commenting systems please contact us by live chat on http://solidopinion.com/ or send us email to support@solidopinion.com.
 
-
 == Screenshots ==
 
 1. Comments widget.
@@ -82,7 +81,9 @@ Yes, to import comments from other commenting systems please contact us by live 
 5. SolidOpinion Admin Board.
 
 == Changelog ==
-No changes.
+
+= 1.1 =
+* SolidOpinion Community Settings moved to SolidOpinion Comments > Settings > Widget > Community
 
 == Upgrade Notice ==
 

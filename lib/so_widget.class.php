@@ -9,7 +9,8 @@ class so_community_widget extends WP_Widget {
 	// widget form creation
 	function form($instance) {	
     // Check values
-     	
+		echo "<p>You can manage this widget from <a href='".admin_url('options-general.php?page=so_comments')."'>SolidOpinion publisher panel</a></p>";
+ /*    	
     $tabs = array('1' => array('name' => 'top_by_points', 'text' => __('People', 'solidopinion-comments')), 
                   '2' => array('name' => 'last_threads', 'text' => __('Recent', 'solidopinion-comments')), 
                   '3' => array('name' => 'popular_thread', 'text' => __('Popular', 'solidopinion-comments')));
@@ -74,9 +75,9 @@ class so_community_widget extends WP_Widget {
       <?php } ?>
       <br>
     </p>
-<?php 
+<?php */
   }
-
+/*
 	// widget update
 	function update($new_instance, $old_instance) {
 		$instance = $old_instance;
@@ -103,7 +104,7 @@ class so_community_widget extends WP_Widget {
     
     return $instance;
 	}
-
+*/
 	// widget display
 	function widget($args, $instance) {
     extract($args);    
@@ -111,7 +112,7 @@ class so_community_widget extends WP_Widget {
     if ( !($so_option && isset($so_option['so_shortname']) && ($so_option['so_shortname']!='')) ) {
         return;
     }
-    $default_tab = $instance['default_tab'];
+    /*$default_tab = $instance['default_tab'];
     $items_number = $instance['items_number'];
     $popular_thread = $instance['popular_thread'];
     $last_threads = $instance['last_threads'];
@@ -127,7 +128,8 @@ class so_community_widget extends WP_Widget {
     }
     $allow_tabs = ($top_by_points ? $top_by_points : '') . (($top_by_points && $last_threads) ? (',' . $last_threads) : ((!$top_by_points && $last_threads) ? $last_threads : '')) . 
                   ((($top_by_points || $last_threads) && $popular_thread) ? ',' . $popular_thread : ((!$top_by_points && !$last_threads && $popular_thread) ? $popular_thread : '') );
-    $lang_id = get_so_language_id();
+    */
+		$lang_id = get_so_language_id();
     $so_shortname = $so_option['so_shortname'];
     
     $url = SO_API_URL.'api/Site/getpublic/?shortname='.$so_shortname;
@@ -139,12 +141,12 @@ class so_community_widget extends WP_Widget {
     $response = json_decode(curl_exec($curl),true);
     curl_close($curl);
 
-    if ($items_number && !empty($response) && isset($response['total_messages']) && $response['total_messages'] > 0) {
+    if (/*$items_number && */!empty($response) && isset($response['total_messages']) && $response['total_messages'] > 0) {
       echo $before_widget;
       echo $before_title;
       echo __('Community', 'solidopinion-comments');
       echo $after_title;
-      echo str_replace(array('%%SO_SITENAME%%', '%%TAB_ID%%', '%%MAX_VALUE%%', '%%TABS%%', '%%LANG_ID%%'), array($so_shortname, $default_tab, ($items_number<10) ? (($items_number>0) ? $items_number : 1) : 10, $allow_tabs, $lang_id), get_include_contents(SO_COMMENTS_DIR . '/templates/community_template.php'));
+      echo str_replace(array('%%SO_SITENAME%%', /*'%%TAB_ID%%', '%%MAX_VALUE%%', '%%TABS%%', */'%%LANG_ID%%'), array($so_shortname, /*$default_tab, ($items_number<10) ? (($items_number>0) ? $items_number : 1) : 10, $allow_tabs,*/ $lang_id), get_include_contents(SO_COMMENTS_DIR . '/templates/community_template.php'));
       echo $after_widget; 
     }
     
