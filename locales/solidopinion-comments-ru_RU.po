@@ -82,6 +82,40 @@ msgstr "Для отображения комментариев SolidOpinion ну
 msgid "Settings"
 msgstr "Настройки"
 
+#: d:\OpenServer\domains\sowidget.loc\wp-content\plugins\solidopinion-comments/lib/settings_page.class.php:119
+msgid "Great!"
+msgstr "Отлично!"
+
+#: d:\OpenServer\domains\sowidget.loc\wp-content\plugins\solidopinion-comments/lib/settings_page.class.php:119
+msgid "Our support team will contact you ASAP via email used for SolidOpinion registration to make an import! Alternatively you can drop us a line on help@solidopinion.com."
+msgstr "Служба поддержки SolidOpinion свяжется с Вами по email, указанному по регистрации. Вы можете написать нам на support@solidopinion.com."
+
+#: d:\OpenServer\domains\sowidget.loc\wp-content\plugins\solidopinion-comments/lib/settings_page.class.php:120
+msgid "We're currently working on your comments export..."
+msgstr "Идет экспорт комментариев..."
+
+#: d:\OpenServer\domains\sowidget.loc\wp-content\plugins\solidopinion-comments/lib/settings_page.class.php:162
+msgid "Export successfully done!"
+msgstr "Экспорт завершен!"
+
+#: d:\OpenServer\domains\sowidget.loc\wp-content\plugins\solidopinion-comments/lib/settings_page.class.php:162
+msgid "Import comments to your site will be completed during 48 hours. You'll get notification to email. You can also contact us via support@solidopinion.com. Thank you!"
+msgstr "Импорт комментариев будет выполнен в течение 48 часов. Вы получите уведомление на email. Вы можете написать нам на support@solidopinion.com. Спасибо!"
+
+#: d:\OpenServer\domains\sowidget.loc\wp-content\plugins\solidopinion-comments/lib/settings_page.class.php:165
+msgid "Oops! Something went wrong."
+msgstr "Ой-ой! Возникла непредвиденная ситуация."
+
+#: d:\OpenServer\domains\sowidget.loc\wp-content\plugins\solidopinion-comments/lib/settings_page.class.php:165
+msgid "Yo make your comments import completed please contact us via support@solidopinion.com. Thank you!"
+msgstr "Чтобы завершить импорт комментариев, Вы можете связаться с нами по электронной почте support@solidopinion.com. Спасибо!"
+
+#: d:\OpenServer\domains\sowidget.loc\wp-content\plugins\solidopinion-comments/lib/settings_page.class.php:165
+msgid "Would you like to import your existing comments to SolidOpinion?"
+msgstr "Импортировать комментарии сайта в SolidOpinion?"
+
+
+
 #~ msgid ""
 #~ "SolidOpinion Short Name is not set. Please %sconfigure%s SolidOpinion "
 #~ "Comments plugin."
@@ -121,3 +155,5 @@ msgstr "Настройки"
 
 #~ msgid "Implement SolidOpinion comments features"
 #~ msgstr "Реализует управление SolidOpinion комментариями"
+
+

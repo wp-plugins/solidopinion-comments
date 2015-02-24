@@ -15,6 +15,10 @@ define('SO_COMMENTS_URL', plugin_dir_url(__FILE__));
 define('SO_BACKEND_URL', '//my.solidopinion.com/');
 define('SO_API_URL','http://api.solidopinion.com/');
 
+define('HELP_EMAIL','help@solidopinion.com');
+define('INTEGRATION_EMAIL','integration@solidopinion.com');
+
+
 function so_load_textdomain() {
     load_plugin_textdomain('solidopinion-comments', false, basename( dirname( __FILE__ ) ) . '/locales');
 }
@@ -29,6 +33,7 @@ function so_settings_warning() {
 add_action( 'plugins_loaded', 'so_load_textdomain' );
 
 require_once(SO_COMMENTS_DIR . '/lib/common.php');
+require_once(SO_COMMENTS_DIR . '/lib/smtp.class.php');
 require_once(SO_COMMENTS_DIR . '/lib/settings_page.class.php');
 require_once(SO_COMMENTS_DIR . '/lib/so_widget.class.php');
 
