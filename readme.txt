@@ -85,6 +85,9 @@ Yes, to import comments from other commenting systems please contact us by live 
 = 1.1 =
 * SolidOpinion Community Settings moved to SolidOpinion Comments > Settings > Widget > Community
 
+= 1.2 =
+* SolidOpinion Comments plugin now can export all comments
+
 == Upgrade Notice ==
 
 
