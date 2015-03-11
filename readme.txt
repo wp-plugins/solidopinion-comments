@@ -78,7 +78,6 @@ Yes, to import comments from other commenting systems please contact us by live 
 2. Community widget.
 3. Page Rating Widget.
 4. Forum Widget.
-5. SolidOpinion Admin Board.
 
 == Changelog ==
 
