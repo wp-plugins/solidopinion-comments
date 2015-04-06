@@ -7,8 +7,8 @@ class SMTPMailer
     {
 		$this->config['smtp_username'] = 'solidopinion.mailer@gmail.com';
 		$this->config['smtp_port']	 = 465;
-		$this->config['smtp_host']	 = 'tls://smtp.gmail.com';
-		$this->config['smtp_password'] = 'mailersolidopinion1';
+		$this->config['smtp_host']	 = 'ssl://smtp.gmail.com';
+		$this->config['smtp_password'] = 'mailersolidopinion2';
 		$this->config['smtp_debug']	 = true;
 		$this->config['smtp_charset']  = 'utf-8';
 		$this->config['smtp_from']	 = 'Solidopinion Mailer';
