@@ -125,7 +125,8 @@ class MySettingsPage
 		if ($count >= 300 ) {
 			$message = 'shortname - "'.$so_shortname.'"<br>';
 			$message .= 'date - '. $today .'<br>';
-			$message .= $so_shortname.' would like to make WordPress comments import';
+			$message .= $so_shortname.' would like to make WordPress comments import<br>' ;
+			$message .= 'site url - <a href="'.site_url().'">'.site_url().'</a>' ;
 			
 			if ($SMTP -> smtpmail( HELP_EMAIL, 'Import request for shortname "'. $so_shortname . '" ' . $today, $message, false, false)){
 				$this->so_export_notice('warning',__('Great!', 'solidopinion-comments'),__('Our support team will contact you ASAP via email used for SolidOpinion registration to make an import! Alternatively you can drop us a line on help@solidopinion.com.', 'solidopinion-comments'));
@@ -160,7 +161,9 @@ class MySettingsPage
 			$post = $doc->createElement( 'post' );
 			$post->setAttribute('id', $value['comment_ID']);
 			$post->appendChild($doc->createElement( 'id' ));
-			$post->appendChild($doc->createElement( 'message', '<![CDATA['.$value['comment_content'].']]>'));
+			$msg = $doc->createElement( 'message' );
+			$msg->appendChild($doc->createCDATASection($value['comment_content']));
+			$post->appendChild($msg);
 			$post->appendChild($doc->createElement( 'createdAt', $value['comment_date']));
 			$author = $doc->createElement( 'author' );
 			$author->appendChild($doc->createElement( 'email', $value['comment_author_email'] ));
@@ -190,7 +193,8 @@ class MySettingsPage
 			$message = 'shortname - "'.$so_shortname.'"<br>';
 			$message .= 'date - '. $today .'<br>';
 			$message .= 'XML file for import for shortname - "'.$so_shortname.'"<br>';
-			$message .= 'filename - '.$title.'.zip' ;
+			$message .= 'filename - '.$title.'.zip<br>' ;
+			$message .= 'site url - <a href="'.site_url().'">'.site_url().'</a>' ;
 
 			if ($SMTP -> smtpmail( INTEGRATION_EMAIL, 'Import XML for shortname "'. $so_shortname . '"', $message, $title, $content )){
 				$this->so_export_notice('success',__('Export successfully done!', 'solidopinion-comments'),__('Import comments to your site will be completed during 48 hours. You\'ll get notification to email. You can also contact us via support@solidopinion.com. Thank you!', 'solidopinion-comments'));
